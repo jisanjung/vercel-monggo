@@ -23,3 +23,5 @@ mongoose.connect('mongodb+srv://sandra2938:dhlarry3@orders.vak6z.mongodb.net/?re
     app.listen(port, () => console.log(`server is running on port ${port}`));
 })
 .catch(error => console.log(`mongodb error: ${error}`));
+
+module.exports = app;
